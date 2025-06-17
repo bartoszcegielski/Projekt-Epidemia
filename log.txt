@@ -1,0 +1,703 @@
+LOGI:
+====== Początkowy stan postaci ======
+Mężczyzna ID 1, wiek 49, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 2, wiek 25, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 3, wiek 26, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 4, wiek 40, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 5, wiek 51, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 6, wiek 59, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 7, wiek 31, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 8, wiek 48, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 9, wiek 42, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 10, wiek 48, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 11, wiek 39, HP 50, zarażony: true, zaszczepiony: false, zyje: true
+Mężczyzna ID 12, wiek 49, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 13, wiek 51, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 14, wiek 37, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 15, wiek 49, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 16, wiek 55, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 17, wiek 48, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 18, wiek 56, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 19, wiek 63, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Mężczyzna ID 20, wiek 59, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Kobieta ID 21, wiek 37, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 22, wiek 66, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 23, wiek 46, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 24, wiek 24, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 25, wiek 49, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 26, wiek 21, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 27, wiek 43, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 28, wiek 53, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 29, wiek 26, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 30, wiek 56, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 31, wiek 35, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 32, wiek 52, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 33, wiek 35, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 34, wiek 34, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 35, wiek 36, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 36, wiek 66, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 37, wiek 18, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 38, wiek 42, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 39, wiek 50, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 40, wiek 54, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Lekarz ID 41, wiek 54, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Lekarz ID 42, wiek 27, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Lekarz ID 43, wiek 19, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Lekarz ID 44, wiek 55, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Czysciciel ID 45, wiek 43, HP 60, zarażony: false, zaszczepiony: false, zyje: true
+Medyk ID 46, wiek 64, HP 60, zarażony: false, zaszczepiony: false, zyje: true
+Naukowiec ID 47, wiek 46, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Naukowiec ID 48, wiek 30, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Naukowiec ID 49, wiek 26, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+Naukowiec ID 50, wiek 26, HP 50, zarażony: false, zaszczepiony: false, zyje: true
+====== Symulacja ======
+Ekspert ID 50 nie został zarażony.
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 1
+Cywil ID 10 nie został zarażony.
+Ekspert ID 50 nie został zarażony.
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 2
+Ekspert ID 50 nie został zarażony.
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 3
+Cywil ID 10 nie został zarażony.
+Ekspert ID 50 nie został zarażony.
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 4
+Ekspert ID 50 nie został zarażony.
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 5
+Cywil ID 10 został zarażony.
+Cywil ID 35 został zarażony.
+Ekspert ID 44 nie został zarażony.
+Lekarz ID 44 nie wyleczył osoby ID 35.
+Ekspert ID 49 nie został zarażony.
+Naukowiec ID 49 spotyka zarażoną osobę ID 35. Postęp badań: 6
+Ekspert ID 50 został zarażony.
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 7
+Cywil ID 2 został zarażony.
+Cywil ID 19 został zarażony.
+Cywil ID 29 został zarażony.
+Cywil ID 37 nie został zarażony.
+Ekspert ID 44 nie został zarażony.
+Lekarz ID 44 nie wyleczył osoby ID 29.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 11.
+Ekspert ID 49 został zarażony.
+Naukowiec ID 49 spotyka zarażoną osobę ID 10. Postęp badań: 8
+Naukowiec ID 49 spotyka zarażoną osobę ID 35. Postęp badań: 9
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 10
+Cywil ID 5 nie został zarażony.
+Cywil ID 6 nie został zarażony.
+Cywil ID 14 nie został zarażony.
+Cywil ID 24 został zarażony.
+Cywil ID 26 został zarażony.
+Ekspert ID 44 został zarażony.
+Lekarz ID 44 nie wyleczył osoby ID 29.
+Lekarz ID 44 nie wyleczył osoby ID 35.
+Naukowiec ID 49 spotyka zarażoną osobę ID 10. Postęp badań: 11
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 12
+Cywil ID 6 został zarażony.
+Cywil ID 14 nie został zarażony.
+Cywil ID 15 nie został zarażony.
+Cywil ID 17 został zarażony.
+Cywil ID 21 został zarażony.
+Cywil ID 22 nie został zarażony.
+Cywil ID 37 został zarażony.
+Cywil ID 38 został zarażony.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 nie wyleczył osoby ID 21.
+Lekarz ID 44 nie wyleczył osoby ID 29.
+Lekarz ID 44 nie wyleczył osoby ID 35.
+Naukowiec ID 49 spotyka zarażoną osobę ID 10. Postęp badań: 13
+Naukowiec ID 49 spotyka zarażoną osobę ID 11. Postęp badań: 14
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 15
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 16
+Cywil ID 1 został zarażony.
+Cywil ID 4 nie został zarażony.
+Cywil ID 7 został zarażony.
+Cywil ID 14 nie został zarażony.
+Cywil ID 14 został zarażony.
+Cywil ID 22 został zarażony.
+Cywil ID 28 nie został zarażony.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 7.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 nie wyleczył osoby ID 21.
+Lekarz ID 44 nie wyleczył osoby ID 6.
+Lekarz ID 44 nie wyleczył osoby ID 29.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 35.
+Naukowiec ID 49 spotyka zarażoną osobę ID 11. Postęp badań: 17
+Naukowiec ID 49 spotyka zarażoną osobę ID 14. Postęp badań: 18
+Naukowiec ID 50 spotyka zarażoną osobę ID 1. Postęp badań: 19
+Cywil ID 4 nie został zarażony.
+Cywil ID 15 został zarażony.
+Cywil ID 28 został zarażony.
+Cywil ID 33 został zarażony.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 nie wyleczył osoby ID 6.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 nie wyleczył osoby ID 21.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 nie wyleczył osoby ID 26.
+Lekarz ID 44 nie wyleczył osoby ID 35.
+Zolnierz ID 46 nie został zarażony.
+Naukowiec ID 49 spotyka zarażoną osobę ID 11. Postęp badań: 20
+Naukowiec ID 49 spotyka zarażoną osobę ID 14. Postęp badań: 21
+Naukowiec ID 49 spotyka zarażoną osobę ID 24. Postęp badań: 22
+Naukowiec ID 49 spotyka zarażoną osobę ID 29. Postęp badań: 23
+Naukowiec ID 50 spotyka zarażoną osobę ID 7. Postęp badań: 24
+Naukowiec ID 50 spotyka zarażoną osobę ID 33. Postęp badań: 25
+Cywil ID 4 został zarażony.
+Cywil ID 5 został zarażony.
+Cywil ID 9 został zarażony.
+Cywil ID 34 nie został zarażony.
+Ekspert ID 41 nie został zarażony.
+Lekarz ID 41 nie wyleczył osoby ID 9.
+Ekspert ID 41 został zarażony.
+Lekarz ID 41 nie wyleczył osoby ID 26.
+Ekspert ID 43 został zarażony.
+Lekarz ID 43 nie wyleczył osoby ID 21.
+Lekarz ID 43 nie wyleczył osoby ID 41.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 11.
+Naukowiec ID 49 spotyka zarażoną osobę ID 29. Postęp badań: 26
+Naukowiec ID 50 spotyka zarażoną osobę ID 7. Postęp badań: 27
+Cywil ID 25 został zarażony.
+Cywil ID 27 został zarażony.
+Cywil ID 32 został zarażony.
+Cywil ID 34 został zarażony.
+Cywil ID 39 został zarażony.
+Lekarz ID 41 nie wyleczył osoby ID 9.
+Lekarz ID 41 nie wyleczył osoby ID 28.
+Lekarz ID 41 nie wyleczył osoby ID 43.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 25.
+Lekarz ID 43 nie wyleczył osoby ID 6.
+Lekarz ID 43 nie wyleczył osoby ID 41.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 11.
+Cywil ID 12 nie został zarażony.
+Cywil ID 12 został zarażony.
+Cywil ID 16 został zarażony.
+Cywil ID 31 został zarażony.
+Cywil ID 36 nie został zarażony.
+Cywil ID 36 został zarażony.
+Cywil ID 40 nie został zarażony.
+Lekarz ID 41 nie wyleczył osoby ID 9.
+Lekarz ID 41 nie wyleczył osoby ID 28.
+Lekarz ID 41 nie wyleczył osoby ID 36.
+Lekarz ID 41 nie wyleczył osoby ID 43.
+Lekarz ID 43 nie wyleczył osoby ID 6.
+Lekarz ID 43 nie wyleczył osoby ID 10.
+Lekarz ID 43 nie wyleczył osoby ID 41.
+Lekarz ID 44 nie wyleczył osoby ID 31.
+Zolnierz ID 45 nie został zarażony.
+Czyściciel ID 45 zabił zarażoną osobę ID 37.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 11.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 33.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 35.
+Ekspert ID 47 został zarażony.
+Naukowiec ID 47 spotyka zarażoną osobę ID 7. Postęp badań: 28
+Naukowiec ID 49 spotyka zarażoną osobę ID 11. Postęp badań: 29
+Naukowiec ID 49 spotyka zarażoną osobę ID 14. Postęp badań: 30
+Cywil ID 8 nie został zarażony.
+Cywil ID 20 nie został zarażony.
+Cywil ID 23 został zarażony.
+Cywil ID 30 został zarażony.
+Cywil ID 40 nie został zarażony.
+Lekarz ID 41 nie wyleczył osoby ID 9.
+Lekarz ID 41 nie wyleczył osoby ID 28.
+Lekarz ID 41 nie wyleczył osoby ID 43.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 30.
+Lekarz ID 43 nie wyleczył osoby ID 10.
+Lekarz ID 43 nie wyleczył osoby ID 36.
+Lekarz ID 43 nie wyleczył osoby ID 41.
+Lekarz ID 44 nie wyleczył osoby ID 31.
+Zolnierz ID 45 nie został zarażony.
+Czyściciel ID 45 zabił zarażoną osobę ID 4.
+Zolnierz ID 45 został zarażony.
+Czyściciel ID 45 zabił zarażoną osobę ID 32.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 11.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 25.
+Naukowiec ID 47 spotyka zarażoną osobę ID 1. Postęp badań: 31
+Naukowiec ID 47 spotyka zarażoną osobę ID 7. Postęp badań: 32
+Ekspert ID 48 nie został zarażony.
+Naukowiec ID 48 spotyka zarażoną osobę ID 16. Postęp badań: 33
+Naukowiec ID 49 spotyka zarażoną osobę ID 11. Postęp badań: 34
+Naukowiec ID 49 spotyka zarażoną osobę ID 50. Postęp badań: 35
+Naukowiec ID 50 spotyka zarażoną osobę ID 49. Postęp badań: 36
+Lekarz ID 41 nie wyleczył osoby ID 26.
+Lekarz ID 41 nie wyleczył osoby ID 36.
+Lekarz ID 41 nie wyleczył osoby ID 43.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 25.
+Lekarz ID 43 nie wyleczył osoby ID 6.
+Lekarz ID 43 nie wyleczył osoby ID 38.
+Lekarz ID 43 nie wyleczył osoby ID 41.
+Lekarz ID 44 nie wyleczył osoby ID 35.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 11.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 12.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 33.
+Naukowiec ID 47 spotyka zarażoną osobę ID 7. Postęp badań: 37
+Ekspert ID 48 nie został zarażony.
+Naukowiec ID 48 spotyka zarażoną osobę ID 16. Postęp badań: 38
+Naukowiec ID 49 spotyka zarażoną osobę ID 11. Postęp badań: 39
+Naukowiec ID 49 spotyka zarażoną osobę ID 50. Postęp badań: 40
+Naukowiec ID 50 spotyka zarażoną osobę ID 22. Postęp badań: 41
+Naukowiec ID 50 spotyka zarażoną osobę ID 49. Postęp badań: 42
+Cywil ID 20 nie został zarażony.
+Cywil ID 20 został zarażony.
+Cywil ID 40 nie został zarażony.
+Lekarz ID 41 nie wyleczył osoby ID 36.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 12.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 16.
+Lekarz ID 43 nie wyleczył osoby ID 6.
+Lekarz ID 43 nie wyleczył osoby ID 36.
+Lekarz ID 43 nie wyleczył osoby ID 38.
+Lekarz ID 44 nie wyleczył osoby ID 16.
+Lekarz ID 44 nie wyleczył osoby ID 20.
+Czyściciel ID 45 zabił zarażoną osobę ID 28.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 12.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 25.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 29.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 33.
+Naukowiec ID 47 spotyka zarażoną osobę ID 1. Postęp badań: 43
+Ekspert ID 48 został zarażony.
+Naukowiec ID 48 spotyka zarażoną osobę ID 16. Postęp badań: 44
+Naukowiec ID 48 spotyka zarażoną osobę ID 20. Postęp badań: 45
+Naukowiec ID 49 spotyka zarażoną osobę ID 14. Postęp badań: 46
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 47
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 48
+Naukowiec ID 50 spotyka zarażoną osobę ID 22. Postęp badań: 49
+Cywil ID 40 nie został zarażony.
+Lekarz ID 41 nie wyleczył osoby ID 26.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 12.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 16.
+Lekarz ID 43 nie wyleczył osoby ID 6.
+Lekarz ID 43 nie wyleczył osoby ID 26.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 12.
+Zolnierz ID 46 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 25.
+Zolnierz ID 46 został zarażony.
+Medyk ID 46 podleczył osobe ID 29.
+Naukowiec ID 47 spotyka zarażoną osobę ID 11. Postęp badań: 50
+Naukowiec ID 47 zaszczepił osobę ID 11.
+Naukowiec ID 47 spotyka zarażoną osobę ID 50. Postęp badań: 51
+Naukowiec ID 47 zaszczepił osobę ID 50.
+Naukowiec ID 48 spotyka zarażoną osobę ID 16. Postęp badań: 52
+Naukowiec ID 48 zaszczepił osobę ID 16.
+Naukowiec ID 48 spotyka zarażoną osobę ID 20. Postęp badań: 53
+Naukowiec ID 48 zaszczepił osobę ID 20.
+Naukowiec ID 48 spotyka zarażoną osobę ID 31. Postęp badań: 54
+Naukowiec ID 48 zaszczepił osobę ID 31.
+Naukowiec ID 48 zaszczepił osobę ID 40.
+Naukowiec ID 49 spotyka zarażoną osobę ID 33. Postęp badań: 55
+Naukowiec ID 49 zaszczepił osobę ID 33.
+Naukowiec ID 49 spotyka zarażoną osobę ID 38. Postęp badań: 56
+Naukowiec ID 49 zaszczepił osobę ID 38.
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 57
+Naukowiec ID 50 zaszczepił osobę ID 2.
+Naukowiec ID 50 spotyka zarażoną osobę ID 19. Postęp badań: 58
+Naukowiec ID 50 zaszczepił osobę ID 19.
+Naukowiec ID 50 spotyka zarażoną osobę ID 47. Postęp badań: 59
+Naukowiec ID 50 zaszczepił osobę ID 47.
+!!!POWSTAŁA SZCZEPIONKA!!!
+Naukowiec ID 48 został zaszczepiony.
+Naukowiec ID 49 został zaszczepiony.
+Cywil ID 3 nie został zarażony.
+Cywil ID 3 nie został zarażony.
+Lekarz ID 43 nie wyleczył osoby ID 26.
+Lekarz ID 43 wyleczył osobę ID 36.
+Lekarz ID 44 nie wyleczył osoby ID 12.
+Lekarz ID 44 wyleczył osobę ID 16.
+Medyk ID 46 podleczył osobe ID 12.
+Medyk ID 46 podleczył osobe ID 25.
+Medyk ID 46 podleczył osobe ID 29.
+Naukowiec ID 47 spotyka zarażoną osobę ID 1. Postęp badań: 60
+Naukowiec ID 47 zaszczepił osobę ID 1.
+Naukowiec ID 47 spotyka zarażoną osobę ID 30. Postęp badań: 61
+Naukowiec ID 47 zaszczepił osobę ID 30.
+Naukowiec ID 47 spotyka zarażoną osobę ID 50. Postęp badań: 62
+Naukowiec ID 49 spotyka zarażoną osobę ID 33. Postęp badań: 63
+Naukowiec ID 49 spotyka zarażoną osobę ID 38. Postęp badań: 64
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 65
+Naukowiec ID 50 spotyka zarażoną osobę ID 47. Postęp badań: 66
+Cywil ID 3 nie został zarażony.
+Cywil ID 8 nie został zarażony.
+Cywil ID 13 został zarażony.
+Cywil ID 18 został zarażony.
+Cywil ID 36 został zarażony.
+Lekarz ID 41 wyleczył osobę ID 26.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 12.
+Ekspert ID 42 nie został zarażony.
+Lekarz ID 42 nie wyleczył osoby ID 44.
+Lekarz ID 43 nie wyleczył osoby ID 6.
+Lekarz ID 43 wyleczył osobę ID 36.
+Lekarz ID 44 wyleczył osobę ID 48.
+Czyściciel ID 45 zabił zarażoną osobę ID 6.
+Czyściciel ID 45 zabił zarażoną osobę ID 9.
+Medyk ID 46 podleczył osobe ID 12.
+Medyk ID 46 podleczył osobe ID 25.
+Medyk ID 46 podleczył osobe ID 29.
+Naukowiec ID 47 spotyka zarażoną osobę ID 25. Postęp badań: 67
+Naukowiec ID 47 zaszczepił osobę ID 25.
+Naukowiec ID 47 spotyka zarażoną osobę ID 30. Postęp badań: 68
+Naukowiec ID 48 spotyka zarażoną osobę ID 44. Postęp badań: 69
+Naukowiec ID 48 zaszczepił osobę ID 44.
+Naukowiec ID 49 spotyka zarażoną osobę ID 10. Postęp badań: 70
+Naukowiec ID 49 zaszczepił osobę ID 10.
+Naukowiec ID 49 spotyka zarażoną osobę ID 33. Postęp badań: 71
+Naukowiec ID 49 spotyka zarażoną osobę ID 38. Postęp badań: 72
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 73
+Cywil ID 3 nie został zarażony.
+Cywil ID 8 został zarażony.
+Cywil ID 26 został zarażony.
+Cywil ID 36 nie został zarażony.
+Cywil ID 36 nie został zarażony.
+Ekspert ID 42 został zarażony.
+Lekarz ID 42 wyleczył osobę ID 23.
+Lekarz ID 42 wyleczył osobę ID 27.
+Lekarz ID 43 wyleczył osobę ID 26.
+Lekarz ID 44 wyleczył osobę ID 12.
+Lekarz ID 44 nie wyleczył osoby ID 46.
+Medyk ID 46 podleczył osobe ID 44.
+Medyk ID 46 podleczył osobe ID 49.
+Naukowiec ID 48 spotyka zarażoną osobę ID 44. Postęp badań: 74
+Naukowiec ID 49 spotyka zarażoną osobę ID 33. Postęp badań: 75
+Naukowiec ID 49 spotyka zarażoną osobę ID 46. Postęp badań: 76
+Naukowiec ID 49 zaszczepił osobę ID 46.
+Naukowiec ID 50 spotyka zarażoną osobę ID 1. Postęp badań: 77
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 78
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 79
+Cywil ID 3 nie został zarażony.
+Cywil ID 3 nie został zarażony.
+Cywil ID 12 nie został zarażony.
+Cywil ID 12 został zarażony.
+Cywil ID 23 nie został zarażony.
+Cywil ID 23 nie został zarażony.
+Cywil ID 26 został zarażony.
+Cywil ID 36 nie został zarażony.
+Cywil ID 36 został zarażony.
+Lekarz ID 41 wyleczył osobę ID 26.
+Lekarz ID 43 wyleczył osobę ID 10.
+Lekarz ID 44 wyleczył osobę ID 46.
+Medyk ID 46 podleczył osobe ID 12.
+Medyk ID 46 podleczył osobe ID 16.
+Medyk ID 46 podleczył osobe ID 44.
+Naukowiec ID 47 zaszczepił osobę ID 23.
+Naukowiec ID 48 spotyka zarażoną osobę ID 20. Postęp badań: 80
+Naukowiec ID 48 spotyka zarażoną osobę ID 42. Postęp badań: 81
+Naukowiec ID 48 zaszczepił osobę ID 42.
+Naukowiec ID 48 spotyka zarażoną osobę ID 44. Postęp badań: 82
+Naukowiec ID 49 spotyka zarażoną osobę ID 38. Postęp badań: 83
+Naukowiec ID 50 spotyka zarażoną osobę ID 1. Postęp badań: 84
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 85
+Naukowiec ID 50 spotyka zarażoną osobę ID 11. Postęp badań: 86
+Naukowiec ID 50 spotyka zarażoną osobę ID 29. Postęp badań: 87
+Naukowiec ID 50 zaszczepił osobę ID 29.
+Cywil ID 3 został zarażony.
+Cywil ID 26 nie został zarażony.
+Cywil ID 26 nie został zarażony.
+Cywil ID 26 został zarażony.
+Lekarz ID 41 wyleczył osobę ID 26.
+Lekarz ID 42 wyleczył osobę ID 30.
+Lekarz ID 43 wyleczył osobę ID 36.
+Czyściciel ID 45 zabił zarażoną osobę ID 3.
+Medyk ID 46 podleczył osobe ID 12.
+Medyk ID 46 podleczył osobe ID 44.
+Naukowiec ID 48 spotyka zarażoną osobę ID 20. Postęp badań: 88
+Naukowiec ID 48 spotyka zarażoną osobę ID 42. Postęp badań: 89
+Naukowiec ID 48 spotyka zarażoną osobę ID 44. Postęp badań: 90
+Naukowiec ID 49 spotyka zarażoną osobę ID 38. Postęp badań: 91
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 92
+Cywil ID 26 został zarażony.
+Cywil ID 36 został zarażony.
+Lekarz ID 41 wyleczył osobę ID 43.
+Lekarz ID 42 wyleczył osobę ID 12.
+Lekarz ID 42 wyleczył osobę ID 44.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 36.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 41.
+Lekarz ID 44 wyleczył osobę ID 42.
+Naukowiec ID 50 spotyka zarażoną osobę ID 1. Postęp badań: 93
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 94
+Naukowiec ID 50 spotyka zarażoną osobę ID 25. Postęp badań: 95
+Cywil ID 36 został zarażony.
+Lekarz ID 42 wyleczył osobę ID 33.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 26.
+Czyściciel ID 45 zabił zarażoną osobę ID 49.
+Medyk ID 46 podleczył osobe ID 12.
+Medyk ID 46 podleczył osobe ID 33.
+Medyk ID 46 podleczył osobe ID 38.
+Naukowiec ID 47 spotyka zarażoną osobę ID 7. Postęp badań: 96
+Naukowiec ID 47 zaszczepił osobę ID 7.
+Naukowiec ID 50 spotyka zarażoną osobę ID 2. Postęp badań: 97
+Naukowiec ID 50 spotyka zarażoną osobę ID 19. Postęp badań: 98
+Cywil ID 12 nie został zarażony.
+Cywil ID 26 został zarażony.
+Ekspert ID 41 nie został zarażony.
+Lekarz ID 41 wyleczył osobę ID 17.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 26.
+Medyk ID 46 podleczył osobe ID 38.
+Medyk ID 46 podleczył osobe ID 42.
+Naukowiec ID 47 spotyka zarażoną osobę ID 7. Postęp badań: 99
+Naukowiec ID 50 spotyka zarażoną osobę ID 19. Postęp badań: 100
+Cywil ID 12 nie został zarażony.
+Cywil ID 12 został zarażony.
+Lekarz ID 44 wyleczył osobę ID 35.
+Czyściciel ID 45 zabił zarażoną osobę ID 18.
+Medyk ID 46 podleczył osobe ID 10.
+Medyk ID 46 podleczył osobe ID 11.
+Medyk ID 46 podleczył osobe ID 39.
+Naukowiec ID 48 zaszczepił osobę ID 12.
+Cywil ID 17 został zarażony.
+Cywil ID 26 nie został zarażony.
+Cywil ID 35 został zarażony.
+Lekarz ID 42 wyleczył osobę ID 35.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 36.
+Czyściciel ID 45 zabił zarażoną osobę ID 31.
+Medyk ID 46 podleczył osobe ID 10.
+Medyk ID 46 podleczył osobe ID 11.
+Naukowiec ID 50 zaszczepił osobę ID 5.
+Cywil ID 26 nie został zarażony.
+Cywil ID 35 został zarażony.
+Lekarz ID 42 wyleczył osobę ID 35.
+Czyściciel ID 45 zabił zarażoną osobę ID 12.
+Medyk ID 46 podleczył osobe ID 38.
+Medyk ID 46 podleczył osobe ID 39.
+Naukowiec ID 50 zaszczepił osobę ID 22.
+Naukowiec ID 50 zaszczepił osobę ID 24.
+Cywil ID 26 został zarażony.
+Ekspert ID 41 nie został zarażony.
+Lekarz ID 41 wyleczył osobę ID 14.
+Medyk ID 46 podleczył osobe ID 38.
+Cywil ID 14 został zarażony.
+Cywil ID 35 został zarażony.
+Cywil ID 36 nie został zarażony.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 14.
+Czyściciel ID 45 zabił zarażoną osobę ID 35.
+Medyk ID 46 podleczył osobe ID 38.
+Cywil ID 36 został zarażony.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 36.
+Naukowiec ID 48 zaszczepił osobę ID 8.
+Cywil ID 36 został zarażony.
+Naukowiec ID 48 zaszczepił osobę ID 45.
+Cywil ID 27 nie został zarażony.
+Lekarz ID 42 wyleczył osobę ID 25.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 26.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 38.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 39.
+Medyk ID 46 podleczył osobe ID 2.
+Cywil ID 39 został zarażony.
+Lekarz ID 42 wyleczył osobę ID 29.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 39.
+Medyk ID 46 podleczył osobe ID 24.
+Naukowiec ID 50 zaszczepił osobę ID 34.
+Cywil ID 39 nie został zarażony.
+Cywil ID 39 został zarażony.
+Ekspert ID 43 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 39.
+Medyk ID 46 podleczył osobe ID 11.
+Cywil ID 27 został zarażony.
+Czyściciel ID 45 zabił zarażoną osobę ID 8.
+Medyk ID 46 podleczył osobe ID 1.
+Medyk ID 46 podleczył osobe ID 11.
+Medyk ID 46 podleczył osobe ID 24.
+Cywil ID 14 nie został zarażony.
+Cywil ID 39 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 1.
+Medyk ID 46 podleczył osobe ID 11.
+Cywil ID 26 został zarażony.
+Cywil ID 39 został zarażony.
+Medyk ID 46 podleczył osobe ID 11.
+Naukowiec ID 47 zaszczepił osobę ID 27.
+Naukowiec ID 48 zaszczepił osobę ID 13.
+Medyk ID 46 podleczył osobe ID 1.
+Medyk ID 46 podleczył osobe ID 21.
+Medyk ID 46 podleczył osobe ID 1.
+Medyk ID 46 podleczył osobe ID 2.
+Lekarz ID 44 wyleczył osobę ID 20.
+Medyk ID 46 podleczył osobe ID 1.
+Medyk ID 46 podleczył osobe ID 2.
+Medyk ID 46 podleczył osobe ID 1.
+Naukowiec ID 48 zaszczepił osobę ID 43.
+Cywil ID 14 został zarażony.
+Ekspert ID 41 nie został zarażony.
+Lekarz ID 41 wyleczył osobę ID 26.
+Lekarz ID 42 wyleczył osobę ID 27.
+Lekarz ID 43 wyleczył osobę ID 45.
+Medyk ID 46 podleczył osobe ID 1.
+Medyk ID 46 podleczył osobe ID 17.
+Ekspert ID 41 został zarażony.
+Lekarz ID 41 wyleczył osobę ID 17.
+Cywil ID 17 został zarażony.
+Medyk ID 46 podleczył osobe ID 24.
+Medyk ID 46 podleczył osobe ID 50.
+Lekarz ID 42 wyleczył osobę ID 39.
+Medyk ID 46 podleczył osobe ID 50.
+Cywil ID 26 został zarażony.
+Lekarz ID 41 wyleczył osobę ID 26.
+Lekarz ID 43 wyleczył osobę ID 1.
+Medyk ID 46 podleczył osobe ID 21.
+Medyk ID 46 podleczył osobe ID 50.
+Cywil ID 26 nie został zarażony.
+Cywil ID 39 został zarażony.
+Lekarz ID 41 wyleczył osobę ID 14.
+Lekarz ID 43 wyleczył osobę ID 2.
+Lekarz ID 43 wyleczył osobę ID 36.
+Medyk ID 46 podleczył osobe ID 21.
+Medyk ID 46 podleczył osobe ID 50.
+Cywil ID 14 został zarażony.
+Postac o ID 22 umiera z powodu choroby.
+Cywil ID 26 nie został zarażony.
+Lekarz ID 41 wyleczył osobę ID 14.
+Medyk ID 46 podleczył osobe ID 21.
+Medyk ID 46 podleczył osobe ID 50.
+Cywil ID 14 nie został zarażony.
+Medyk ID 46 podleczył osobe ID 15.
+Medyk ID 46 podleczył osobe ID 24.
+Medyk ID 46 podleczył osobe ID 50.
+Lekarz ID 41 wyleczył osobę ID 17.
+Lekarz ID 42 wyleczył osobę ID 39.
+Cywil ID 17 nie został zarażony.
+Postac o ID 34 umiera z powodu choroby.
+Cywil ID 36 nie został zarażony.
+Lekarz ID 43 wyleczył osobę ID 41.
+Czyściciel ID 45 zabił zarażoną osobę ID 13.
+Medyk ID 46 podleczył osobe ID 15.
+Medyk ID 46 podleczył osobe ID 50.
+Cywil ID 17 nie został zarażony.
+Lekarz ID 42 wyleczył osobę ID 7.
+Medyk ID 46 podleczył osobe ID 1.
+Medyk ID 46 podleczył osobe ID 17.
+Medyk ID 46 podleczył osobe ID 50.
+Naukowiec ID 50 zaszczepił osobę ID 21.
+Lekarz ID 43 wyleczył osobę ID 21.
+Medyk ID 46 podleczył osobe ID 43.
+Medyk ID 46 podleczył osobe ID 50.
+Medyk ID 46 podleczył osobe ID 43.
+Medyk ID 46 podleczył osobe ID 50.
+Postac o ID 19 umiera z powodu choroby.
+Medyk ID 46 podleczył osobe ID 50.
+Cywil ID 17 nie został zarażony.
+Ekspert ID 41 nie został zarażony.
+Lekarz ID 41 wyleczył osobę ID 15.
+Medyk ID 46 podleczył osobe ID 50.
+Medyk ID 46 podleczył osobe ID 21.
+Postac o ID 5 umiera z powodu choroby.
+Czyściciel ID 45 zabił zarażoną osobę ID 24.
+Medyk ID 46 podleczył osobe ID 50.
+Cywil ID 17 został zarażony.
+Naukowiec ID 48 zaszczepił osobę ID 14.
+Naukowiec ID 50 zaszczepił osobę ID 17.
+Medyk ID 46 podleczył osobe ID 50.
+Postac o ID 47 umiera z powodu choroby.
+Cywil ID 15 został zarażony.
+Lekarz ID 44 wyleczył osobę ID 15.
+Medyk ID 46 podleczył osobe ID 11.
+Medyk ID 46 podleczył osobe ID 36.
+Medyk ID 46 podleczył osobe ID 11.
+Medyk ID 46 podleczył osobe ID 36.
+Medyk ID 46 podleczył osobe ID 36.
+Medyk ID 46 podleczył osobe ID 11.
+Lekarz ID 43 wyleczył osobę ID 50.
+Medyk ID 46 podleczył osobe ID 23.
+Medyk ID 46 podleczył osobe ID 44.
+Cywil ID 15 nie został zarażony.
+Cywil ID 15 został zarażony.
+Naukowiec ID 50 zaszczepił osobę ID 26.
+Naukowiec ID 50 zaszczepił osobę ID 41.
+Medyk ID 46 podleczył osobe ID 25.
+Lekarz ID 42 wyleczył osobę ID 15.
+Medyk ID 46 podleczył osobe ID 25.
+Cywil ID 15 został zarażony.
+Postac o ID 17 umiera z powodu choroby.
+Medyk ID 46 podleczył osobe ID 29.
+Naukowiec ID 48 zaszczepił osobę ID 15.
+Medyk ID 46 podleczył osobe ID 20.
+Lekarz ID 41 wyleczył osobę ID 11.
+Medyk ID 46 podleczył osobe ID 29.
+ 
+Choroba nie została wytępiona.
+ 
+====== Końcowy stan postaci ======
+Mężczyzna ID 1, wiek 49, HP 50, zarażony: false, zaszczepiony: true, zyje: true
+Mężczyzna ID 2, wiek 25, HP 38, zarażony: false, zaszczepiony: true, zyje: true
+Mężczyzna ID 3, wiek 26, HP -1, zarażony: true, zaszczepiony: false, zyje: false
+Mężczyzna ID 4, wiek 40, HP -1, zarażony: true, zaszczepiony: false, zyje: false
+Mężczyzna ID 5, wiek 51, HP 0, zarażony: true, zaszczepiony: true, zyje: false
+Mężczyzna ID 6, wiek 59, HP -1, zarażony: true, zaszczepiony: false, zyje: false
+Mężczyzna ID 7, wiek 31, HP 6, zarażony: false, zaszczepiony: true, zyje: true
+Mężczyzna ID 8, wiek 48, HP -1, zarażony: true, zaszczepiony: true, zyje: false
+Mężczyzna ID 9, wiek 42, HP -1, zarażony: true, zaszczepiony: false, zyje: false
+Mężczyzna ID 10, wiek 48, HP 50, zarażony: false, zaszczepiony: true, zyje: true
+Mężczyzna ID 11, wiek 39, HP 21, zarażony: false, zaszczepiony: true, zyje: true
+Mężczyzna ID 12, wiek 49, HP -1, zarażony: true, zaszczepiony: true, zyje: false
+Mężczyzna ID 13, wiek 51, HP -1, zarażony: true, zaszczepiony: true, zyje: false
+Mężczyzna ID 14, wiek 37, HP 25, zarażony: false, zaszczepiony: true, zyje: true
+Mężczyzna ID 15, wiek 49, HP 6, zarażony: true, zaszczepiony: true, zyje: true
+Mężczyzna ID 16, wiek 55, HP 50, zarażony: false, zaszczepiony: true, zyje: true
+Mężczyzna ID 17, wiek 48, HP 0, zarażony: true, zaszczepiony: true, zyje: false
+Mężczyzna ID 18, wiek 56, HP -1, zarażony: true, zaszczepiony: false, zyje: false
+Mężczyzna ID 19, wiek 63, HP 0, zarażony: true, zaszczepiony: true, zyje: false
+Mężczyzna ID 20, wiek 59, HP 35, zarażony: false, zaszczepiony: true, zyje: true
+Kobieta ID 21, wiek 37, HP 40, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 22, wiek 66, HP 0, zarażona: true, zaszczepiony: true, zyje: false
+Kobieta ID 23, wiek 46, HP 40, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 24, wiek 24, HP -1, zarażona: true, zaszczepiony: true, zyje: false
+Kobieta ID 25, wiek 49, HP 40, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 26, wiek 21, HP 18, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 27, wiek 43, HP 25, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 28, wiek 53, HP -1, zarażona: true, zaszczepiony: false, zyje: false
+Kobieta ID 29, wiek 26, HP 40, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 30, wiek 56, HP 32, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 31, wiek 35, HP -1, zarażona: true, zaszczepiony: true, zyje: false
+Kobieta ID 32, wiek 52, HP -1, zarażona: true, zaszczepiony: false, zyje: false
+Kobieta ID 33, wiek 35, HP 40, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 34, wiek 34, HP 0, zarażona: true, zaszczepiony: true, zyje: false
+Kobieta ID 35, wiek 36, HP -1, zarażona: true, zaszczepiony: false, zyje: false
+Kobieta ID 36, wiek 66, HP 40, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 37, wiek 18, HP -1, zarażona: true, zaszczepiony: false, zyje: false
+Kobieta ID 38, wiek 42, HP 37, zarażona: false, zaszczepiony: true, zyje: true
+Kobieta ID 39, wiek 50, HP 24, zarażona: false, zaszczepiony: false, zyje: true
+Kobieta ID 40, wiek 54, HP 40, zarażona: false, zaszczepiony: true, zyje: true
+Lekarz ID 41, wiek 54, HP 30, zarażony: false, zaszczepiony: true, zyje: true
+Lekarz ID 42, wiek 27, HP 50, zarażony: false, zaszczepiony: true, zyje: true
+Lekarz ID 43, wiek 19, HP 50, zarażony: false, zaszczepiony: true, zyje: true
+Lekarz ID 44, wiek 55, HP 50, zarażony: false, zaszczepiony: true, zyje: true
+Czysciciel ID 45, wiek 43, HP 31, zarażony: false, zaszczepiony: true, zyje: true
+Medyk ID 46, wiek 64, HP 56, zarażony: false, zaszczepiony: true, zyje: true
+Naukowiec ID 47, wiek 46, HP 0, zarażony: true, zaszczepiony: true, zyje: false
+Naukowiec ID 48, wiek 30, HP 47, zarażony: false, zaszczepiony: true, zyje: true
+Naukowiec ID 49, wiek 26, HP -1, zarażony: true, zaszczepiony: true, zyje: false
+Naukowiec ID 50, wiek 26, HP 33, zarażony: false, zaszczepiony: true, zyje: true
+ 
+Postęp badań nad szczepionką: 100
+====== Koniec symulacji ======
